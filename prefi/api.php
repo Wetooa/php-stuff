@@ -62,9 +62,7 @@ if ($isCommenting) {
   $comments = getCommentsData();
   $new_id = getMaxId($comments);
 
-  var_dump($_POST);
-
-  $posts[] = array(
+  $comments[] = array(
     "postId" => $_POST["postId"],
     "id" => $new_id,
     "name" => $credentials["name"],
@@ -72,10 +70,12 @@ if ($isCommenting) {
     "body" => $_POST["body"],
   );
 
+  var_dump($posts);
+
   file_put_contents($commentsJSON, json_encode($comments, JSON_PRETTY_PRINT));
-  // echo "
-  // <script>window.location = 'index.php'</script>
-  // ";
+  echo "
+  <script>window.location = 'index.php'</script>
+  ";
 } elseif ($isCreatingPost) {
 
   $posts = getPostsData();
@@ -89,9 +89,9 @@ if ($isCommenting) {
   );
 
   file_put_contents($postsJSON, json_encode($posts, JSON_PRETTY_PRINT));
-  // echo "
-  // <script>window.location = 'index.php'</script>
-  // ";
+  echo "
+  <script>window.location = 'index.php'</script>
+  ";
 }
 
 

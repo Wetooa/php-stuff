@@ -26,5 +26,19 @@
         "name": "Mario Nuss",
         "email": "marionuss@ent.org",
         "body": "Thou shall not and not thou"
+    },
+    {
+        "postId": "1",
+        "id": 5,
+        "name": "Mario Summ",
+        "email": "mariosumm@gmail.com",
+        "body": "1123123"
+    },
+    {
+        "postId": "1",
+        "id": 6,
+        "name": "Emily Laff",
+        "email": "emilylaff@gmail.com",
+        "body": "fuickl u"
     }
 ]
