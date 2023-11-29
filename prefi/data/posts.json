@@ -24,21 +24,9 @@
         "body": "An ounce of effort and a ton of patience!"
     },
     {
-        "uid": 2,
+        "uid": 1,
         "id": 5,
-        "title": "new one",
-        "body": "12312312312312312321"
-    },
-    {
-        "uid": 3,
-        "id": 6,
-        "title": "hello",
-        "body": "thi is a new post\r\n"
-    },
-    {
-        "uid": 3,
-        "id": 7,
-        "title": "fuckkly doodle do",
-        "body": "this is abitch as post"
+        "title": "test",
+        "body": "123"
     }
 ]
