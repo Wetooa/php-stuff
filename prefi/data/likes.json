@@ -1,0 +1,5 @@
+[
+  { "postId": "1", "uid": 3, "isLike": true },
+  { "postId": "2", "uid": 3, "isLike": false },
+  { "postId": "3", "uid": 3, "isLike": true }
+]

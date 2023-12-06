@@ -18,6 +18,10 @@
           <a href="login.php" class="btn btn-outline-light me-2">Login</a>
           <a href="register.php" class="btn btn-outline-light m-2">Sign-up</a>
           <button name="logoutUser" class="btn btn-warning m-2">Logout</button>
+          <button name="deleteUserAccount" class="btn btn-warning m-2">Delete
+            Account</button>
+
+          <input style="display: none" name="userId" value="<?php echo $credentials["id"] ?>" />
         </form>
       </div>
 

@@ -8,4 +8,16 @@ function getMaxId($array) {
   return $new_id;
 }
 
+function isAuthenticated() {
+  global $credentials;
+
+  if ($credentials == null) {
+    echo "User must be authenticated";
+    return false;
+  }
+
+  return true;
+
+}
+
 ?>

@@ -4,11 +4,14 @@ function createComment() {
   global $credentials;
   global $commentsPath;
 
+  if (!isAuthenticated())
+    return;
+
   $comments = getCommentsData();
   $new_id = getMaxId($comments);
 
   $comments[] = array(
-    "postId" => $_POST["postId"],
+    "postId" => intval($_POST["postId"]),
     "id" => $new_id,
     "name" => $credentials["name"],
     "email" => $credentials["email"],

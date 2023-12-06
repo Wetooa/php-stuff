@@ -11,16 +11,16 @@
   <?php include_once 'header.php'; ?>
 
   <div class="container">
-
-    <section class="container my-2">
-      <form action="index.php" method="POST">
+    <section class="container create-post-container" style="margin: 30px auto">
+      <h4>Create a Post</h4>
+      <form class="container my-4" action="index.php" method="POST">
         <div class="mb-3">
           <label for="" class="form-label">Enter title: </label>
           <input type="text" class="form-control" name="title" id="title" aria-describedby="emailHelpId"
             placeholder="Life Updates">
         </div>
         <div class="mb-3">
-          <label for="" class="form-label">Enter body</label>
+          <label for="" class="form-label">Enter message: </label>
           <textarea type="text" class="form-control" name="body" id="body" aria-describedby="emailHelpId" rows="10"
             cols="10" placeholder="This is a new message..."></textarea>
         </div>

@@ -31,7 +31,7 @@
 
       <div class="mb-3">
         <label for="" class="form-label">Email</label>
-        <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId"
+        <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId"
           placeholder="adrian@mail.com">
         <small id="emailHelpId" class="form-text text-muted">Enter a valid email</small>
       </div>

@@ -35,17 +35,24 @@
         "body": "1123123"
     },
     {
-        "postId": "1",
-        "id": 6,
-        "name": "Emily Laff",
-        "email": "emilylaff@gmail.com",
-        "body": "fuickl u"
-    },
-    {
-        "postId": "5",
-        "id": 7,
+        "postId": 4,
+        "id": 13,
         "name": "Mario Summ",
         "email": "mariosumm@gmail.com",
-        "body": "believe"
+        "body": "im not okay"
+    },
+    {
+        "postId": 1,
+        "id": 14,
+        "name": "Mario Summ",
+        "email": "mariosumm@gmail.com",
+        "body": "test"
+    },
+    {
+        "postId": 1,
+        "id": 15,
+        "name": "snickerdoodle",
+        "email": "snickerdoodle@gmail.com",
+        "body": "i like your post"
     }
 ]

@@ -18,6 +18,7 @@ function registerUser() {
     "id" => $new_id,
     "name" => $_POST["name"],
     "username" => $_POST["username"],
+    "email" => $_POST["email"],
     "address" => array(
       "street" => $_POST["street"],
       "barangay" => $_POST["barangay"],
@@ -26,10 +27,9 @@ function registerUser() {
   );
 
   $users[] = $newUser;
-  $credentials = $newUser;
-
   file_put_contents($usersPath, json_encode($users, JSON_PRETTY_PRINT));
 
+  loginUser();
 
-  header("Location: ../index.php", true, 301);
+  // header("Location: ../index.php", true, 301);
 }
