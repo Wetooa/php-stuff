@@ -2,14 +2,14 @@
 
 
 function getUsersData() {
-  if(!file_exists(USERS_JSON_PATH))
+  if (!file_exists(USERS_JSON_PATH))
     throw new Exception("File not found!");
 
   return json_decode(file_get_contents(USERS_JSON_PATH));
 }
 
 function getEventsData() {
-  if(!file_exists(EVENTS_JSON_PATH))
+  if (!file_exists(EVENTS_JSON_PATH))
     throw new Exception("File not found!");
 
   return json_decode(file_get_contents(EVENTS_JSON_PATH));

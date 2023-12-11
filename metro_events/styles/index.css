@@ -1,0 +1,24 @@
+body {
+  min-height: 100vh;
+  display: flex;
+}
+
+main {
+  flex: 1;
+}
+
+label,
+input {
+  display: block;
+}
+
+input {
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  border: 1px solid gray;
+}
+
+button {
+  border-radius: 0.5rem;
+  background-color: teal;
+}

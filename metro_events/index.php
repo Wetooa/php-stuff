@@ -1,3 +1,5 @@
+<?php include_once "./api/index.php" ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,16 +8,11 @@
   <title>Metro Events</title>
 </head>
 
-<body class="min-h-screen flex">
+<body>
 
   <?php include_once "./left_sidebar.php" ?>
 
-
-  <main class="flex-1">
-
-
-
-
+  <main>
 
 
 
